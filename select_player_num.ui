@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Select_player_num</class>
+ <widget class="QWidget" name="Select_player_num">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1613</width>
+    <height>907</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="two">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>120</y>
+     <width>281</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>双人对战</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="six">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>690</y>
+     <width>281</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>六人对战</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="four">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>410</y>
+     <width>281</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>四人对战</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="three">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>260</y>
+     <width>281</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>三人对战</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="five">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>550</y>
+     <width>281</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>五人对战</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1613</width>
+     <height>907</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/images/assets/b.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>two</zorder>
+  <zorder>six</zorder>
+  <zorder>four</zorder>
+  <zorder>three</zorder>
+  <zorder>five</zorder>
+  <zorder>Back</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

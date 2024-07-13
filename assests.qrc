@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>assets/board_background.jpg</file>
+        <file>assets/button_hover.png</file>
+        <file>assets/button_none.png</file>
+        <file>assets/button_press.png</file>
+        <file>assets/gameboard.png</file>
+        <file>assets/man1.png</file>
+        <file>assets/background2.jpg</file>
+        <file>assets/background.jpg</file>
+        <file>assets/purple_ball.png</file>
+        <file>assets/blue_ball.png</file>
+        <file>assets/green_ball.png</file>
+        <file>assets/orange_ball.png</file>
+        <file>assets/red_ball.png</file>
+        <file>assets/yellow_ball.png</file>
+        <file>assets/yellow_ball_light.png</file>
+        <file>assets/red_ball_light.png</file>
+        <file>assets/purple_ball_light.png</file>
+        <file>assets/orange_ball_light.png</file>
+        <file>assets/green_ball_light.png</file>
+        <file>assets/blue_ball_light.png</file>
+        <file>assets/Winner.png</file>
+        <file>assets/transparent.png</file>
+        <file>assets/word_background.png</file>
+        <file>assets/robot.png</file>
+        <file>assets/help_4.png</file>
+        <file>assets/help_3.png</file>
+        <file>assets/help_2.png</file>
+        <file>assets/help_1.png</file>
+        <file>assets/Stamina1.png</file>
+        <file>assets/b.png</file>
+        <file>assets/1.jpg</file>
+        <file>assets/4.jpg</file>
+        <file>assets/5.jpg</file>
+        <file>assets/2.jpg</file>
+        <file>assets/6.jpg</file>
+        <file>assets/3.jpg</file>
+    </qresource>
+    <qresource prefix="/media">
+        <file>assets/pick.mp3</file>
+        <file>assets/put.mp3</file>
+        <file>assets/board.mp3</file>
+        <file>assets/bgm.mp3</file>
+    </qresource>
+</RCC>

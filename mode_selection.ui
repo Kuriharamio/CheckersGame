@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Mode_Selection</class>
+ <widget class="QWidget" name="Mode_Selection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1613</width>
+    <height>907</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="PVE">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>160</y>
+     <width>361</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>40</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#PVE {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton#PVE:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton#PVE:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>人机对战</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Local_Battle">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>400</y>
+     <width>361</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>40</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#Local_Battle {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton#Local_Battle:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton#Local_Battle:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhNone</set>
+   </property>
+   <property name="text">
+    <string>本地对战</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Online_Battle">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>640</y>
+     <width>361</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>40</pointsize>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#Online_Battle {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton#Online_Battle:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton#Online_Battle:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>加载存档</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1613</width>
+     <height>907</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/images/assets/b.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>PVE</zorder>
+  <zorder>Local_Battle</zorder>
+  <zorder>Online_Battle</zorder>
+  <zorder>Back</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

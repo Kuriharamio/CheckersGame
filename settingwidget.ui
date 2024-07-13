@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingWidget</class>
+ <widget class="QWidget" name="SettingWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1613</width>
+    <height>907</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="Back">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>50</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>140</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>角色信息</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>290</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>背景图片</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Setting_Background_Path">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>450</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>文件路径</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_0">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>音效</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="effect">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>开启</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1613</width>
+     <height>907</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/images/assets/background.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Board_Background_Path">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>530</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>文件路径</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menu_background_Path">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>370</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>文件路径</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>370</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>主界面</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>530</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>游戏界面</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>450</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>设置界面</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Blue_Image">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>450</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>更换形象</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>340</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>紫色方棋手</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Purple_Image">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>340</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>更换形象</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Red_Image">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>230</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>更换形象</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Green_Image">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>560</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>更换形象</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>230</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>红色方棋手</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>560</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>绿色方棋手</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>450</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>蓝色方棋手</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Orange_Image">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>780</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>更换形象</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>780</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>橙色方棋手</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Yellow_Image">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>670</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>更换形象</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>670</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>黄色方棋手</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_1">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>230</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>背景音乐</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="bgm">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>250</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>开启</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BGM_Path">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>250</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>更换背景音乐</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>690</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>界面文字</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Change_Word_Color">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>700</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>更换字体颜色</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="orange_name">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>780</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>重命名</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="blue_name">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>450</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>重命名</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="green_name">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>560</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>重命名</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="purple_name">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>340</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>重命名</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="red_name">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>230</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>重命名</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="yellow_name">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>670</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>重命名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_background">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>130</y>
+     <width>1381</width>
+     <height>781</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(170, 170, 255, 100);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>610</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>排行榜</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Winner_Background_Path">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>610</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>文件路径</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>770</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>30</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>限时落子</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CountDown_set">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>790</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>设定时间</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="CountDown">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>790</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>开启</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>830</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>(仅限本地对战）</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>850</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>15</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-image: url(:/images/assets/button_none.png);
+}
+
+QPushButton:hover {
+    border-image: url(:/images/assets/button_hover.png);
+}
+
+QPushButton:pressed {
+    border-image: url(:/images/assets/button_press.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>清空设置</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_background</zorder>
+  <zorder>Back</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_2</zorder>
+  <zorder>Setting_Background_Path</zorder>
+  <zorder>label_0</zorder>
+  <zorder>effect</zorder>
+  <zorder>Board_Background_Path</zorder>
+  <zorder>menu_background_Path</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_4</zorder>
+  <zorder>Blue_Image</zorder>
+  <zorder>label_9</zorder>
+  <zorder>Purple_Image</zorder>
+  <zorder>Red_Image</zorder>
+  <zorder>Green_Image</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_10</zorder>
+  <zorder>Orange_Image</zorder>
+  <zorder>label_13</zorder>
+  <zorder>Yellow_Image</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_1</zorder>
+  <zorder>bgm</zorder>
+  <zorder>BGM_Path</zorder>
+  <zorder>label_7</zorder>
+  <zorder>Change_Word_Color</zorder>
+  <zorder>orange_name</zorder>
+  <zorder>blue_name</zorder>
+  <zorder>green_name</zorder>
+  <zorder>purple_name</zorder>
+  <zorder>red_name</zorder>
+  <zorder>yellow_name</zorder>
+  <zorder>label_14</zorder>
+  <zorder>Winner_Background_Path</zorder>
+  <zorder>label_15</zorder>
+  <zorder>CountDown_set</zorder>
+  <zorder>CountDown</zorder>
+  <zorder>label_16</zorder>
+  <zorder>clear</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
